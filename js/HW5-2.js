@@ -13,7 +13,7 @@ let user = {
     this.steps = 0;
     return this;
   },
-  increase() {
+  read() {
     console.log(this.steps);
     return this;
   },
