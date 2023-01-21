@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,6 +8,22 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <script src="js/main.js"></script>
+    <div class="notification" id="notif">
+      <h4 class="message" id="msg">message</h4>
+    </div>
+
+    <div class="container">
+      <form class="form" id="form">
+        <label for="message">Notification Message </label>
+        <input type="text" name="message" />
+        <label for="top">Top </label>
+        <input type="text" name="top" />
+        <label for="right">Right </label>
+        <input type="text" name="right" />
+        <button type="submit">Show Notification</button>
+      </form>
+    </div>
+
+    <script src="js/HW5-4.js"></script>
   </body>
 </html>
