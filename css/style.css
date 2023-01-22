@@ -28,7 +28,7 @@
 .form-container {
   width: 20vw;
   height: 50vh;
-  background-color: rgb(196, 246, 105);
+  background-color: rgb(183, 220, 157);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,9 +47,12 @@
 }
 .form input {
   padding: 0.3rem;
-  background-color: rgb(243, 253, 190);
+  background-color: rgb(242, 247, 232);
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+.form input:focus {
+  outline: none;
 }
 .form button {
   padding: 0.5rem 2rem;
@@ -58,4 +61,6 @@
   border: 1px solid #ccc;
   font-weight: 700;
   margin-top: 1.7rem;
+  background-color: rgb(242, 247, 232);
+  cursor: pointer;
 }
