@@ -2,7 +2,7 @@
 
 const notif = document.getElementById("notif");
 const message = document.getElementById("msg");
-const form = document.getElementById("form");
+const progress = document.getElementById("progress");
 const input_msg = document.getElementById("msg_input");
 const top1 = document.getElementById("top");
 const right = document.getElementById("right");
@@ -11,7 +11,7 @@ const show_btn = document.getElementById("show_btn");
 show_btn.addEventListener("click", (e) => {
   e.preventDefault();
   showNotification({
-    top: top1.value,
+    top1: top1.value,
     right: right.value,
     html: input_msg.value,
   });
@@ -27,5 +27,9 @@ function showNotification({
   notif.style.top = `${top1}px`;
   notif.style.right = `${right}px`;
   notif.className = className;
-  notif.innerHTML = html;
+  message.innerHTML = html;
+
+  progress.className = "progress_start";
+
+  setTimeout(() => (notif.style.display = "none"), 3000);
 }
