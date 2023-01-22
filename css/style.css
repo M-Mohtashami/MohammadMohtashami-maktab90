@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.notification {
+  width: 250px;
+  height: 60px;
+  background-color: rgba(115, 144, 246, 0.568);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: width 4s;
+}
+.message {
+  margin-top: 1rem;
+}
+.progress {
+  width: 100%;
+  height: 7px;
+  background-color: rgba(241, 241, 241, 0.568);
+  justify-self: flex-end;
+  transition: background-color 4s;
+}
+.progress_start {
+  width: 100%;
+  height: 7px;
+  background-color: rgb(255, 216, 42);
+  justify-self: flex-end;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  width: 20vw;
+  height: 50vh;
+  background-color: rgb(183, 220, 157);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 1rem 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+  align-self: center;
+  justify-self: center;
+}
+.form input {
+  padding: 0.3rem;
+  background-color: rgb(242, 247, 232);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form input:focus {
+  outline: none;
+}
+.form button {
+  padding: 0.5rem 2rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-weight: 700;
+  background-color: rgb(242, 247, 232);
+  cursor: pointer;
+}
