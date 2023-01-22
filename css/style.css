@@ -6,35 +6,6 @@
   box-sizing: border-box;
 }
 
-.notification {
-  width: 250px;
-  height: 60px;
-  background-color: rgba(115, 144, 246, 0.568);
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  transition: width 4s;
-}
-.message {
-  margin-top: 1rem;
-}
-.progress {
-  width: 100%;
-  height: 7px;
-  background-color: rgba(241, 241, 241, 0.568);
-  justify-self: flex-end;
-  transition: background-color 4s;
-}
-.progress_start {
-  width: 100%;
-  height: 7px;
-  background-color: rgb(255, 216, 42);
-  justify-self: flex-end;
-}
 .container {
   width: 100vw;
   height: 100vh;
@@ -44,8 +15,9 @@
 }
 .form-container {
   width: 20vw;
-  height: 50vh;
-  background-color: rgb(183, 220, 157);
+  height: 60vh;
+  background-color: #787beb;
+  background-image: linear-gradient(180deg, #a539e300, #a539e3);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -55,28 +27,34 @@
 }
 
 .form {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 0.8rem;
-  align-self: center;
-  justify-self: center;
+  align-items: center;
+  gap: 1.5rem;
 }
 .form input {
   padding: 0.3rem;
-  background-color: rgb(242, 247, 232);
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-bottom: 1px solid #fff;
 }
 .form input:focus {
   outline: none;
 }
+
 .form button {
-  padding: 0.5rem 2rem;
-  width: 100%;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  padding: 0.5rem 0.5rem;
+  width: 35%;
+  color: grey;
+  border-radius: 1rem;
+  border: 1px solid #fff;
   font-weight: 700;
-  background-color: rgb(242, 247, 232);
+  background-color: #fff;
   cursor: pointer;
+}
+.remember {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
 }
