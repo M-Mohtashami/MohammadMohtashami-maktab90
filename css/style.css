@@ -16,6 +16,49 @@ body {
   align-items: center;
   justify-content: center;
 }
+.main {
+  width: 80vw;
+  height: 85vh;
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -3rem 0rem;
+}
 
 .column {
+  width: 10rem;
+  height: 10rem;
+  background-color: rgba(255, 255, 255, 0);
+  transform: rotate(45deg);
+  margin: 0rem 2.1rem;
+}
+.column img {
+  width: 100%;
+  height: 100%;
+}
+
+.orange {
+  background-color: #e9b309;
+}
+.green {
+  background-color: #23c55e;
+}
+.red {
+  background-color: #f04444;
+}
+.blue {
+  background-color: #3b82f6;
+}
+.pink {
+  background-color: #ea489a;
 }
