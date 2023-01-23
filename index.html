@@ -11,26 +11,58 @@
     <div class="container">
       <div class="form-container">
         <div>
-          <div class="brand"></div>
+          <div class="brand-container">
+            <svg
+              class="brand"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+            >
+              <path
+                style="
+                  stroke: none;
+                  fill-rule: nonzero;
+                  fill: #000;
+                  fill-opacity: 1;
+                "
+                d="m18.668 8-5 6.668 3.797 5.066-2.133 1.598c-2.254-3-6-8-6-8L1.332 24h29.336Zm0 0"
+              />
+            </svg>
+          </div>
           <h2 class="login">LOG IN</h2>
         </div>
         <form class="form" id="form">
           <label>
             <svg
+              class="form-icon"
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+              fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-person-fill"
-              viewBox="0 0 16 16"
             >
+              <circle cx="12" cy="8" r="4" fill="#fff" />
               <path
-                d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                d="M5.33788 17.3206C5.99897 14.5269 8.77173 13 11.6426 13H12.3574C15.2283 13 18.001 14.5269 18.6621 17.3206C18.79 17.8611 18.8917 18.4268 18.9489 19.0016C19.0036 19.5512 18.5523 20 18 20H6C5.44772 20 4.99642 19.5512 5.0511 19.0016C5.1083 18.4268 5.20997 17.8611 5.33788 17.3206Z"
+                fill="#fff"
               />
             </svg>
             <input type="text" name="user-name" placeholder="Username" />
           </label>
           <label>
+            <svg
+              class="form-icon"
+              fill="#fff"
+              width="30px"
+              height="30px"
+              viewBox="-3 1 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              class="cf-icon-svg"
+            >
+              <path
+                d="M11.182 8.927v6.912a.794.794 0 0 1-.792.792H1.61a.794.794 0 0 1-.792-.792V8.927a.794.794 0 0 1 .792-.792h.856V6.367a3.534 3.534 0 1 1 7.068 0v1.768h.856a.794.794 0 0 1 .792.792zm-2.756-2.56a2.426 2.426 0 1 0-4.852 0v1.768h4.852zM7.108 11.47a1.108 1.108 0 1 0-1.583 1.001v1.849a.475.475 0 0 0 .95 0v-1.849a1.108 1.108 0 0 0 .633-1.001z"
+              />
+            </svg>
             <input type="password" name="password" placeholder="Password" />
           </label>
           <label class="remember">
