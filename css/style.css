@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #ea80fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 45vw;
+  height: 50vh;
+  background-color: #a13ccc;
+  /* background-image: linear-gradient(180deg, #a539e300, #a539e3); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 35px;
+  padding: 2rem 3rem;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(68, 68, 68, 0.39);
+}
+
+.header {
+  height: 10vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+.picture {
+  width: 6rem;
+  height: 6rem;
+  padding: 0.3rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  box-shadow: 0.1rem 0.1rem 1rem rgb(92, 92, 92);
+}
+
+.skills {
+  color: rgba(231, 231, 231, 0.781);
+  font-size: 1.2rem;
+  font-weight: 100;
+}
