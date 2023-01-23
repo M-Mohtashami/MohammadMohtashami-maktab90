@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "ubuntu";
+  src: url("../font/Ubuntu.ttf");
+  font-weight: 100 900;
+}
+
 *,
 *::before,
 *::after {
@@ -12,7 +18,7 @@ body {
 }
 
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "ubuntu";
   background-color: #ea80fc;
   display: flex;
   justify-content: center;
@@ -20,16 +26,15 @@ body {
 }
 
 .container {
-  width: 40vw;
+  width: 35vw;
   height: 60vh;
   background-color: #a13ccc;
-  /* background-image: linear-gradient(180deg, #a539e300, #a539e3); */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   border-radius: 35px;
-  padding: 2rem 3rem;
+  padding: 1.5rem 3rem;
   box-shadow: 0.1rem 0.1rem 1rem rgba(68, 68, 68, 0.39);
 }
 
@@ -40,23 +45,33 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0.7rem;
   align-self: flex-start;
   justify-self: flex-start;
 }
 .picture {
-  width: 6rem;
-  height: 6rem;
-  padding: 0.3rem;
+  width: 5rem;
+  height: 5rem;
+  padding: 0.2rem;
   background-color: rgb(255, 255, 255);
   border-radius: 100%;
   box-shadow: 0.1rem 0.1rem 1rem rgb(92, 92, 92);
 }
 
 .field {
-  color: rgba(231, 231, 231, 0.781);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 1.2rem;
   font-weight: 100;
+}
+
+.content {
+  margin-top: 3rem;
+  color: #fff;
+}
+
+.info {
+  font-family: "ubuntu";
+  margin-bottom: 0.5rem;
 }
 
 .footer {
@@ -76,4 +91,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.skill img {
+  width: 60%;
 }
