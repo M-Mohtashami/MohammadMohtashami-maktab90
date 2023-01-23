@@ -20,8 +20,8 @@ body {
 }
 
 .container {
-  width: 45vw;
-  height: 50vh;
+  width: 40vw;
+  height: 60vh;
   background-color: #a13ccc;
   /* background-image: linear-gradient(180deg, #a539e300, #a539e3); */
   display: flex;
@@ -53,8 +53,27 @@ body {
   box-shadow: 0.1rem 0.1rem 1rem rgb(92, 92, 92);
 }
 
-.skills {
+.field {
   color: rgba(231, 231, 231, 0.781);
   font-size: 1.2rem;
   font-weight: 100;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.skill {
+  width: 3rem;
+  height: 3rem;
+  background-color: #fff;
+  /* padding: 1rem; */
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
