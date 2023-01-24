@@ -7,7 +7,10 @@
 }
 
 .full-width {
-  width: 140rem;
+  width: 100%;
+}
+.half-width {
+  width: 50%;
 }
 .align-end {
   align-self: flex-end;
@@ -15,12 +18,30 @@
 .align-start {
   align-self: flex-start;
 }
+.align-center {
+  align-self: center;
+}
 .justify-start {
   justify-self: flex-start;
 }
 .justify-end {
   justify-self: flex-end;
 }
+.justify-center {
+  justify-self: center;
+}
 .space-between {
   justify-content: space-between;
+}
+
+.heading1 {
+  font-weight: 700;
+  font-size: 5.2rem;
+}
+.heading2 {
+  font-weight: 600;
+  font-size: 3.6rem;
+}
+.arounds-padding {
+  padding: 8rem;
 }
