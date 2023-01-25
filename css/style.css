@@ -124,3 +124,26 @@ body {
   height: 1rem;
   border-radius: 100%;
 }
+.user-pic {
+  width: 6rem;
+  height: 6rem;
+  padding: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  box-shadow: 0.1rem 0.1rem 1rem rgb(92, 92, 92, 0.5);
+}
+.user-review {
+  width: 30rem;
+  height: 25rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 3rem 3rem;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(68, 68, 68, 0.39);
+  justify-content: center;
+}
+.quote {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 5rem;
+}
