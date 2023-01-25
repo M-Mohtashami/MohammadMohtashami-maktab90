@@ -206,7 +206,7 @@ body {
 }
 
 .footer {
-  background-color: rgb(39, 39, 39);
+  background-color: #061117;
   /* height: 100rem; */
   padding: 5rem 10rem 3rem 10rem;
   color: #ffffff;
@@ -222,5 +222,24 @@ hr.copy-line {
   margin-top: 6rem;
 }
 .footer-content {
+  width: 100%;
+  height: 10rem;
   gap: 3rem;
+}
+
+.footer-email input {
+  padding: 0.8rem;
+  outline: none;
+}
+.footer-email button {
+  outline: none;
+  border: none;
+}
+.footer-item a {
+  margin: 0rem 1rem;
+  color: rgb(161, 178, 182);
+  text-decoration: none;
+}
+.footer p {
+  color: rgb(161, 178, 182);
 }
