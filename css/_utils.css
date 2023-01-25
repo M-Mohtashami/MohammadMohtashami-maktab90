@@ -63,6 +63,9 @@
 .text-color {
   color: rgb(88, 88, 88);
 }
+.detail-color {
+  color: rgb(153, 153, 153);
+}
 .text-center {
   text-align: center;
 }

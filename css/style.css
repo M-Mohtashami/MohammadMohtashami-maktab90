@@ -75,7 +75,7 @@ body {
 }
 
 .card {
-  width: 20rem;
+  width: 21.5rem;
   height: 30rem;
   background-color: #ffffff;
   border-radius: 5px;
@@ -102,7 +102,7 @@ body {
   text-align: center;
 }
 .price-plan {
-  width: 25rem;
+  width: 29.5rem;
   height: 40rem;
   background-color: #ffffff;
   border-radius: 5px;
@@ -146,4 +146,23 @@ body {
   height: 100%;
   position: relative;
   bottom: 5rem;
+}
+
+.latest-news {
+  width: 45.5rem;
+  height: 45rem;
+  background-color: #ffffff;
+  border-radius: 0.4rem;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(68, 68, 68, 0.39);
+  /* justify-content: center; */
+}
+.news-pic {
+  height: 25rem;
+  border-radius: 0.4rem 0.4rem 0rem 0rem;
+}
+.news-detail {
+  padding: 0rem 2rem;
+}
+.news-body {
+  padding: 0rem 2rem;
 }
