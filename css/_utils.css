@@ -42,6 +42,41 @@
   font-weight: 600;
   font-size: 3.6rem;
 }
+.heading3 {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
 .arounds-padding {
   padding: 8rem;
+}
+.gap1 {
+  gap: 2rem;
+}
+
+.lp-5 {
+  padding-left: 5.5rem;
+}
+.text-color {
+  color: rgb(88, 88, 88);
+}
+.text-center {
+  text-align: center;
+}
+.ul-style {
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.bgc-red {
+  background-color: rgba(252, 193, 193, 0.6);
+}
+.bgc-brown {
+  background-color: rgba(207, 171, 142, 0.6);
+}
+.bgc-green {
+  background-color: rgba(205, 252, 193, 0.6);
+}
+.bgc-purpl {
+  background-color: rgba(240, 193, 252, 0.6);
 }
