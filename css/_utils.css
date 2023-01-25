@@ -12,6 +12,9 @@
 .half-width {
   width: 50%;
 }
+.one-third {
+  width: 33%;
+}
 .align-end {
   align-self: flex-end;
 }
