@@ -46,6 +46,10 @@
   font-weight: 600;
   font-size: 2.4rem;
 }
+.heading4 {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
 .arounds-padding {
   padding: 8rem;
 }
